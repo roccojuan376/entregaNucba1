@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Tilt+Warp&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: font-family:'Kanit', sans-serif;
+    font-family:'Tilt Warp',cursive;;
+    background:#E2F2E5;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .username,
+  .contrasena {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .username label,
+  .contrasena label {
+    margin-bottom: 5px;
+  }
+  
+  .username input,
+  .contrasena input {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f5f5f5;
+  }
+  
+  .recordar {
+    margin-top: 10px;
+  }
+  
+  input[type="submit"] {
+    margin-top: 10px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color:#6B9080;
+    color: #fff;
+    cursor: pointer;
+  }
+
+ 
